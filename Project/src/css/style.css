@@ -132,6 +132,340 @@
   height: 0.188rem;
   background-color: #10c9c3;
 }
+/* Fourth page */
+.fourth {
+  height: 15rem;
+  background-color: #10c9c3;
+}
+.fourth .anime {
+  height: 15rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.fourth .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 14.5rem;
+}
+.fourth .section .svg1 {
+  width: 2.5rem;
+  height: 2.25rem;
+}
+.fourth .section .svg2 {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.fourth .section .svg3 {
+  width: 2.75rem;
+  height: 2.563rem;
+}
+.fourth .section .num {
+  margin-left: 1rem;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.034rem;
+}
+.fourth .section .spang {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+/* Firth page */
+.firth .back {
+  height: 37.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+.firth .back .look {
+  opacity: 0;
+}
+.firth .back .one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  height: 18.75rem;
+  background-color: #838383;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.firth .back .one:hover {
+  background-color: #141414;
+  opacity: 0.85;
+}
+.firth .back .one:hover .look {
+  opacity: 1;
+}
+.firth .back .two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 25%;
+  height: 18.75rem;
+  background-color: #dddddd;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+.firth .back .two:hover {
+  background-color: #141414;
+  opacity: 0.85;
+}
+.firth .back .two:hover .look {
+  opacity: 1;
+}
+.firth .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 6.25rem;
+  background-color: #f5f5f5;
+  color: #8e8e8e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+/* Sixth page */
+.sixth {
+  height: 58rem;
+  text-align: center;
+}
+.sixth .thumb-wrap {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  height: 0;
+  overflow: hidden;
+}
+.sixth .thumb-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-width: 0;
+  outline-width: 0;
+}
+/* Seventh page */
+.seventh {
+  height: 33.438rem;
+  margin-top: 6.25rem;
+  background-color: #f5f5f5;
+}
+.seventh .jojo {
+  padding-top: 6.25rem;
+  height: 33.438rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-align: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+.seventh .box {
+  width: 14.75rem;
+  text-align: center;
+}
+.seventh .box .big-txt {
+  margin-top: 1rem;
+  color: #191919;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+.seventh .box .small-txt {
+  margin-top: 0.6rem;
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.005rem;
+}
+/* Eighth page */
+.eighth {
+  height: 31.25rem;
+  background-color: #10c9c3;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.eighth .info {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.015rem;
+}
+.eighth .name {
+  margin-top: 2rem;
+  margin-bottom: 6.8rem;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.075rem;
+}
+/* Ninth page */
+.ninth {
+  height: 12.5rem;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* Tenth page */
+.tenth {
+  height: 46.938rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.tenth .put {
+  height: 20.3rem;
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.tenth .put input {
+  border: none;
+}
+.tenth .put .your {
+  color: #787878;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.938rem;
+  font-weight: 400;
+  letter-spacing: 0.004rem;
+}
+.tenth .put .your-name {
+  padding-left: 1.3rem;
+  width: 20rem;
+  height: 3rem;
+  margin-right: 1.55rem;
+}
+.tenth .put .your-email {
+  padding-left: 1.3rem;
+  width: 20rem;
+  height: 3rem;
+}
+.tenth .put .your-title {
+  padding-left: 1.3rem;
+  width: 41.875rem;
+  height: 3rem;
+}
+.tenth .put .your-comment {
+  padding-bottom: 7.5rem;
+  padding-left: 1.3rem;
+  width: 41.875rem;
+  height: 10.625rem;
+}
+/* Eleventh page */
+.eleventh {
+  height: 17.75rem;
+  background-color: #141414;
+  color: #bcbcbc;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.938rem;
+  font-weight: 400;
+  letter-spacing: 0.004rem;
+}
+.eleventh .bb {
+  padding-top: 6rem;
+}
+.eleventh .bb .piroll {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500;
+  letter-spacing: 0.011rem;
+}
 /* Media */
 @media (min-width: 200px) and (max-width: 1199.98px) {
   .intro {
@@ -152,7 +486,7 @@
     background: linear-gradient(to right, #f8f9f9 70%, #e9e9e9 30%);
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .navi-g {
     padding-top: 1rem;
     display: -webkit-box;
@@ -168,6 +502,30 @@
   .third {
     background: -webkit-gradient(linear, left top, right top, color-stop(100%, #f8f9f9), color-stop(0%, #e9e9e9));
     background: linear-gradient(to right, #f8f9f9 100%, #e9e9e9 0%);
+  }
+  .back {
+    height: 16.75rem !important;
+  }
+  .back .one {
+    height: 8.375rem !important;
+  }
+  .back .two {
+    height: 8.375rem !important;
+  }
+  .your-name {
+    width: 10rem !important;
+  }
+  .your-email {
+    width: 10rem !important;
+  }
+  .your-title {
+    width: 21.875rem !important;
+  }
+  .your-comment {
+    width: 21.875rem !important;
+  }
+  .seventh {
+    height: 40rem !important;
   }
 }
 @media (max-width: 345.98px) {
@@ -190,5 +548,33 @@
   }
   .line .t {
     width: 9.1rem !important;
+  }
+  .seventh {
+    height: 75rem !important;
+  }
+}
+@media (max-width: 375px) {
+  .your-name {
+    width: 7rem !important;
+  }
+  .your-email {
+    width: 7rem !important;
+  }
+  .your-title {
+    width: 15.875rem !important;
+  }
+  .your-comment {
+    width: 15.875rem !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .sixth {
+    height: 44rem !important;
+  }
+}
+@media (max-width: 576px) {
+  .eleventh {
+    height: 30rem !important;
+    text-align: center;
   }
 }
