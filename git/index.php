@@ -11,7 +11,7 @@
 <body>
     <div class="menuToggle" id="Toggle">|||</div>
 <header id='header' class="">
-    <a href="index.php">
+    <a href="index.html">
         <button class="btn">главная</button>
     </a>
     <div>
